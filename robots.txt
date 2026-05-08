@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://SujitBhatta21.github.ioLeave blank for root/sitemap.xml
+Sitemap: https://sujitbhatta21.github.io/sitemap.xml
