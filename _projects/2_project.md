@@ -1,81 +1,58 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Fluffy - Ontology Alignment System
+description: Lexical + Sentence-BERT embedding system for aligning OWL ontologies, evaluated on OAEI benchmark tracks.
+img: assets/img/project_img/2.png
 importance: 2
 category: work
-giscus_comments: true
+github: https://github.com/SujitBhatta21/fluffy-onto-alignment-system
+tech:
+  - python/python-original
+  - jupyter/jupyter-original-wordmark
+  - anaconda/anaconda-original
+
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Fluffy** is an ontology alignment system built for the IN3067/INM713 Web Semantics and Knowledge Graphs coursework. It combines lexical and semantic embedding matching to produce alignments in Turtle (`.ttl`) format, supporting all five OWL alignment predicates.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+---
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## What It Does
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- **Lexical matching** via ISUB substring similarity with an inverted token index for scalability
+- **Semantic matching** via Sentence-BERT (`all-MiniLM-L6-v2`) cosine similarity, accelerated with FAISS approximate nearest-neighbour search
+- **Combined output** - union of both matchers, deduplicated
+- Evaluated across 5 OAEI tracks: Anatomy, Conference, Digital Humanities, Bio-ML, and Knowledge Graph
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Key Results
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+| Track | Avg F-score | Note |
+|---|---|---|
+| Conference | ~0.37 | Best track - English, readable labels |
+| Digital Humanities | ~0.35 | Required SKOS label support fix |
+| Anatomy | 0.278 | High recall (0.85), low precision |
+| Bio-ML | ~0.11 | Large ontologies, very high recall but poor precision |
+| Knowledge Graph | ~0.008 | No `rdfs:label` annotations - label-driven approach fails |
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Tech Stack
 
-{% endraw %}
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/sentence--transformers-SBERT-FF6F00?style=flat-square&logo=pytorch&logoColor=white" alt="sentence-transformers"/>
+  <img src="https://img.shields.io/badge/RDFLib-Ontology-009688?style=flat-square" alt="RDFLib"/>
+  <img src="https://img.shields.io/badge/owlrl-OWL_Reasoning-6A0DAD?style=flat-square" alt="owlrl"/>
+  <img src="https://img.shields.io/badge/FAISS-ANN_Search-0078D4?style=flat-square" alt="FAISS"/>
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
+</p>
+
+---
+
+## Key Highlights
+
+- Added `SKOSAccessor` to handle ontologies using `skos:prefLabel` instead of `rdfs:label`, recovering zero-score Digital Humanities pairs
+- Scalable variants of both matchers - token index for lexical, FAISS semantic search for embeddings - completing even the heaviest Bio-ML task in ~17 minutes (well within 2-hour limit)
+- Applied OWL-RL reasoning for cross-ontology SPARQL queries over merged alignment graphs

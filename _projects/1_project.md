@@ -7,12 +7,12 @@ importance: 1
 category: work
 github: https://github.com/SujitBhatta21/AALC-IndividualProject
 tech:
-  - devicon-react-original
-  - devicon-typescript-original
-  - devicon-java-original
-  - devicon-spring-original
-  - devicon-postgresql-original
-  - devicon-docker-plain
+  - react/react-original
+  - typescript/typescript-original
+  - java/java-original
+  - spring/spring-original
+  - postgresql/postgresql-original
+  - docker/docker-original
 ---
 
 An interactive educational web application built for the **Anti-Apartheid Legacy Centre (AALC)** as a Final Year BSc project. The app introduces users aged 10-14 to the apartheid regime in South Africa and the resistance movements centred around **28 Penton Street** - the African National Congress (ANC)'s London office - through a series of engaging, puzzle-based learning experiences.

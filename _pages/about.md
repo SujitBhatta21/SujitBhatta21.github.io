@@ -27,7 +27,7 @@ latest_posts:
 ---
 
 I am a final year CS student graduating at July, 2026 from City St. George's, University of London,
-with interests in Machine Learning, Knowledge Graphs, and data engineering.
+with interests in Data Engineering, Machine Learning, and Cloud technologies.
 
 I enjoy building things that sit at the intersection of structured data and real-world
 applications. Currently learning about Fabric Engineering using Azure and building a scalable project

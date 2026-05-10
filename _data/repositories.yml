@@ -1,14 +1,17 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - SujitBhatta21
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - SujitBhatta21/AALC-IndividualProject
+  - SujitBhatta21/fluffy-onto-alignment-system
+  - SujitBhatta21/age-group-detection
+  - SujitBhatta21/ExpressionCalculator
+  - IvanUkrRada/P-MforAI
+  - SujitBhatta21/flood-risk-tracker
+  - SujitBhatta21/venue-and-you
+  - SujitBhatta21/Bounce
+  - SujitBhatta21/A-Star-Pathfinding-Simulator # Using pygame
+  - SujitBhatta21/email_sender # Python project
+
