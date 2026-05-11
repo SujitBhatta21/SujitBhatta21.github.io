@@ -16,7 +16,7 @@ cv:
   sections:
     Experience:
       - company: Anti-Apartheid Legacy Centre
-        position: Placement Frontend Developer
+        position: Placement Frontend Developer (Volunteer)
         location: London, UK
         start_date: 2025-10-01
         end_date: 2026-04-01
@@ -34,27 +34,32 @@ cv:
           - Evaluated 1000+ online search engine queries across domains and platforms (Google, Edge, Firefox) using TELUS's proprietary tools and guidelines.
           - Analysis contributed to improvements in digital maps, web query quality, audio recordings, and targeted search advertising.
 
-    Projects:
-      - name: Flood Risk Tracker
-        summary: "Flask, ReactJS, Leaflet, Python, SQLite, Pandas | Sept 2025 - Oct 2025"
+      - company: Sainsbury's
+        position: Customer Assistant
+        location: London, UK
+        start_date: 2023-08-01
+        end_date: present
         highlights:
-          - Designed a full-stack web application to visualise US county-level flood risks and provide safe route planning.
-          - Built Flask backend with SQLite serving FEMA National Risk Index data, processing 3000+ county risk scores with Pandas.
-          - Implemented interactive React frontend with Leaflet, choropleth map, and a route planner avoiding high-risk areas using Dijkstra's algorithm.
+          - Streamlined store operations, boosting customer experience ratings by 15% through targeted process improvements.
+          - Appointed as store representative for exceptional performance and leadership, managing interactions with 100+ customers daily.
+
+
+    Projects:
+      - name: Age Group Detection
+        summary: "Python, PyTorch, scikit-learn | March 2026 - Apr 2026"
+        highlights:
+          - Compared three model architectures (HOG+LBP+SVM, HOG+MLP, CNN ResNet18) for classifying facial images into four age groups across a multi-thousand image dataset.
+          - ResNet18 with transfer learning achieved 72% accuracy and was selected over SVM (same accuracy) based on confusion matrix analysis showing zero Child↔Senior misclassifications.
+          - Managed full ML pipeline including feature extraction, model training, evaluation metrics, and architecture trade-off justification.
 
       - name: Venue-and-You
-        summary: "Java, MySQL | Jan 2025 - May 2025"
+        summary: "Java, MySQL | Feb 2025 - May 2025"
         highlights:
           - Led a team ranked top 5 out of 30+ projects at university demo day, building a full venue management and ticketing system.
           - Developed Java Swing frontend integrated with Java + MySQL backend supporting real-time data, secure login, client management, and bookings for 100+ users.
           - Directed team collaboration on GitHub over 7 weeks, ensuring timely delivery and version control.
 
-      - name: Veracity — AI/ML Hackathon (MLH Global Hack Week)
-        summary: "Python, Flask, React, HTML & CSS | Oct 2024"
-        highlights:
-          - Proposed and designed an AI-based tool to generate summaries of YouTube videos during a 36-hour hackathon.
-
-      - name: End of the Line 2024 — Robotics Competition
+      - name: End of the Line 2024 - Robotics Competition
         summary: "C++ | Oct 2024"
         highlights:
           - Led a team to 2nd place in a university-wide robotics competition, programming a line-following robot with C++ algorithms achieving a 17-second track time, surpassing 16 teams within a 7-week timeline.
@@ -67,14 +72,14 @@ cv:
         start_date: 2023-09-01
         end_date: 2026-05-01
         highlights:
-          - "Year 1: 90.1% — among the top 5 students out of 320"
+          - "Year 1: 90.1% - among the top 5 students out of 320"
           - "Year 2: 85.6%"
           - "Year 3: Predicted First Class with Honours"
-          - "Key modules: Computer Vision, Programming & Maths for AI, Web Semantics and Knowledge Graphs"
+          - "Key modules: Computer Vision, Programming & Maths for AI, Data Structure and Algorithms, Object Oriented Analysis and Design"
 
       - institution: Haydon School, Pinner
         location: London, UK
-        area: A-Levels
+        area: A-Levels and GCSE
         studyType: Secondary Education
         start_date: 2019-01-01
         end_date: 2022-05-01
@@ -82,13 +87,6 @@ cv:
           - "A-Levels: Mathematics (A), Computer Science (A), Physics (B)"
           - "GCSEs: 9 subjects at A*/A including Maths, Triple Science, English, Computer Science"
 
-      - institution: Eureka High School, Nepaltar
-        location: Kathmandu, Nepal
-        area: High School Diploma
-        studyType: High School Education
-        start_date: 2019-01-01
-        end_date: 2019-10-30
-        highlights:
 
     Skills:
       - name: Languages
@@ -102,13 +100,3 @@ cv:
       - name: Developer Tools
         icon: fa-solid fa-screwdriver-wrench
         keywords: "Git, Docker, Visual Studio Code, Vim, PyCharm, IntelliJ, Arduino"
-
-    Volunteer:
-      - company: Sainsbury's
-        position: Customer Assistant
-        location: London, UK
-        start_date: 2023-08-01
-        end_date: present
-        highlights:
-          - Streamlined store operations, boosting customer experience ratings by 15% through targeted process improvements.
-          - Appointed as store representative for exceptional performance and leadership, managing interactions with 100+ customers daily.
