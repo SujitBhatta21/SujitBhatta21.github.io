@@ -72,10 +72,8 @@ cv:
         start_date: 2023-09-01
         end_date: 2026-05-01
         highlights:
-          - "Year 1: 90.1% - among the top 5 students out of 320"
-          - "Year 2: 85.6%"
-          - "Year 3: Predicted First Class with Honours"
-          - "Key modules: Computer Vision, Programming & Maths for AI, Data Structure and Algorithms, Object Oriented Analysis and Design"
+          - Among the top 5 students out of 320 students in Year I"
+          - Graduated with First Class with Honours
 
       - institution: Haydon School, Pinner
         location: London, UK
@@ -100,3 +98,16 @@ cv:
       - name: Developer Tools
         icon: fa-solid fa-screwdriver-wrench
         keywords: "Git, Docker, Visual Studio Code, Vim, PyCharm, IntelliJ, Arduino"
+
+    Certificates:
+      - name: Microsoft Azure Data Fundamentals (DP-900)
+        issuer: Microsoft
+        date: 2026-05-01
+        icon: fa-solid fa-certificate
+        url: https://learn.microsoft.com/en-us/users/sujitbhatta-5323/transcript/vnnxpiyo6rene4e
+ 
+      - name: IBM Z Xplore - Concepts
+        issuer: IBM
+        date: 2024-08-16
+        icon: fa-solid fa-certificate
+        url: https://www.credly.com/badges/6a841dcf-11b8-4338-97ee-d6150ba1114e/public_url 

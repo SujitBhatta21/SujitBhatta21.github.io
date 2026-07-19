@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: bagh_bahadur.jpeg
+  image: graduating_headshot.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Sujit Bhatta</p>
