@@ -26,11 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a final year CS student graduating at July, 2026 from City St. George's, University of London,
-with interests in Data Engineering, Machine Learning, and Cloud technologies.
+I am a graduate at July, 2026 from City St. George's, University of London on BSc Computer Science with 1st class honours,
+with interests in Software Engineering, Machine Learning, and Cloud technologies.
 
 I enjoy building things that sit at the intersection of structured data and real-world
-applications. Currently learning about Fabric Engineering using Azure and building a scalable project
-by September.
+applications. Currently learning about Microsoft Data Platform using Azure and building a good portfolio for job applications.
 
 Feel free to reach out via [email](mailto:{{ site.data.socials.email }}) or [LinkedIn](https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}).
