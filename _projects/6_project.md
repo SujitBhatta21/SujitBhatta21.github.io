@@ -3,7 +3,7 @@ layout: page
 title: Bounce - Nokia-Inspired Platformer
 description: Java platformer recreating the classic Nokia Bounce game with three ball modes and a boss battle, using city.cs.engine.
 img: assets/img/project_img/6.jpg
-importance: 6
+importance: 7
 category: work
 github: https://github.com/SujitBhatta21/Bounce
 tech:

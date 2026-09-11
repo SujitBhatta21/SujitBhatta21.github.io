@@ -3,7 +3,7 @@ layout: page
 title: AALC - Interactive Storyline
 description: Puzzle-based educational web app teaching apartheid history to ages 10-14, built as a Final Year BSc project.
 img: assets/img/project_img/1.png
-importance: 1
+importance: 2
 category: work
 github: https://github.com/SujitBhatta21/AALC-IndividualProject
 tech:

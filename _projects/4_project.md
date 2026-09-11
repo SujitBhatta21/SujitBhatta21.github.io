@@ -3,7 +3,7 @@ layout: page
 title: P-MforAI - Image Classification
 description: Group coursework implementing CNNs for CIFAR-10 classification and lung/colon cancer detection from histopathological images.
 img: assets/img/project_img/4.png
-importance: 4
+importance: 5
 category: work
 github: https://github.com/IvanUkrRada/P-MforAI
 tech:

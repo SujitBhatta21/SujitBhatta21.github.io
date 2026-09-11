@@ -3,7 +3,7 @@ layout: page
 title: Age Group Detection
 description: Compared HOG+LBP+SVM, HOG+MLP, and CNN ResNet18 for classifying facial images into four age groups.
 img: assets/img/project_img/3.jpg
-importance: 3
+importance: 4
 category: fun
 github: https://github.com/SujitBhatta21/age-group-detection
 tech:

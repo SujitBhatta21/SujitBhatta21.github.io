@@ -3,7 +3,7 @@ layout: page
 title: Fluffy - Ontology Alignment System
 description: Lexical + Sentence-BERT embedding system for aligning OWL ontologies, evaluated on OAEI benchmark tracks.
 img: assets/img/project_img/2.png
-importance: 2
+importance: 3
 category: work
 github: https://github.com/SujitBhatta21/fluffy-onto-alignment-system
 tech:

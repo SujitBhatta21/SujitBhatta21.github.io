@@ -3,7 +3,7 @@ layout: page
 title: Venue and You - Booking System
 description: Java Swing desktop app for managing venue seat and room bookings with MySQL persistence, built as a team project.
 img: assets/img/project_img/5.png
-importance: 5
+importance: 6
 category: work
 github: https://github.com/SujitBhatta21/venue-and-you
 tech:

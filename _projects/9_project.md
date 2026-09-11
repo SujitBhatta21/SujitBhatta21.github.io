@@ -3,7 +3,7 @@ layout: page
 title: Random Quote Email Sender
 description: Python script that picks a random quote from a CSV and emails it daily using smtplib and Gmail SMTP.
 img: assets/img/project_img/9.png
-importance: 9
+importance: 10
 category: work
 github: https://github.com/SujitBhatta21/email_sender
 tech:

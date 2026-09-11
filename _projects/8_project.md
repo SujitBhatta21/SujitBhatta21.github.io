@@ -3,7 +3,7 @@ layout: page
 title: Haskell Expression Calculator
 description: Command-line arithmetic calculator in Haskell using prefix (Polish) notation, with recursive algebraic data types and the Maybe monad.
 img: assets/img/project_img/8.png
-importance: 8
+importance: 9
 category: work
 github: https://github.com/SujitBhatta21/ExpressionCalculator
 tech:

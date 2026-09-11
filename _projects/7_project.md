@@ -3,7 +3,7 @@ layout: page
 title: A* Pathfinding Simulator
 description: Interactive Python + Pygame visualiser for the A* pathfinding algorithm on a user-built grid.
 img: assets/img/project_img/7.png
-importance: 7
+importance: 8
 category: work
 github: https://github.com/SujitBhatta21/A-Star-Pathfinding-Simulator
 tech:
