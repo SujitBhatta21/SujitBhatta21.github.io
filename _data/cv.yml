@@ -1,11 +1,11 @@
 cv:
   name: Sujit Bhatta
-  label: BSc Computer Science Student
-  email: SujitBhatta@proton.me
-  phone: "+44 7305108715"
+  label: First-Class BSc Computer Science Graduate
+  email: Bhattasujit9@gmail.com
+  phone: "+44 7305 108715"
   location: London, UK
+  website: https://sujitbhatta21.github.io/
   image: ""
-  summary: Final year BSc Computer Science student at City, St. George's University of London, graduating May 2026. Interested in full-stack development, machine learning, and data engineering.
 
   social_networks:
     - network: GitHub
@@ -16,14 +16,14 @@ cv:
   sections:
     Experience:
       - company: Anti-Apartheid Legacy Centre
-        position: Placement Frontend Developer (Volunteer)
-        location: London, UK
+        position: Placement Full-Stack Developer (Volunteer)
+        location: UK
         start_date: 2025-10-01
         end_date: 2026-04-01
         highlights:
-          - Built a full-stack educational web application on apartheid in South Africa using React (TypeScript), Spring Boot, and PostgreSQL, featuring JWT authentication and role-based access control for user and admin roles.
-          - Implemented 10 interactive puzzle mechanics including fill-in-the-blank, drag-and-drop, and decision trees, tailored for learners aged 10-14.
-          - Deployed frontend on Vercel and backend on Render with a cloud PostgreSQL database, ensuring a production-ready and scalable architecture.
+          - Built a full-stack educational web application using React (TypeScript), Spring Boot, and PostgreSQL, implementing authentication, role-based authorisation, and secure data access for protected user information.
+          - Implemented 10 interactive puzzle mechanics, including fill-in-the-blank, drag-and-drop, and decision trees, tailored for learners aged 10-14.
+          - Deployed the frontend on Vercel and backend on Render with a cloud PostgreSQL database, creating a production-ready architecture.
 
       - company: TELUS International AI Data Solutions
         position: Online Data Analyst (Freelance)
@@ -31,8 +31,8 @@ cv:
         start_date: 2023-08-01
         end_date: 2024-09-01
         highlights:
-          - Evaluated 1000+ online search engine queries across domains and platforms (Google, Edge, Firefox) using TELUS's proprietary tools and guidelines.
-          - Analysis contributed to improvements in digital maps, web query quality, audio recordings, and targeted search advertising.
+          - Evaluated 1,000+ search engine queries and results across multiple platforms using proprietary tools and strict quality guidelines to measure accuracy, relevance, and groundedness.
+          - Conducted rigorous data-quality assessments on web queries, digital mapping data, audio recordings, and ad placements to improve search-model accuracy and user experience.
 
       - company: Sainsbury's
         position: Customer Assistant
@@ -40,74 +40,43 @@ cv:
         start_date: 2023-08-01
         end_date: present
         highlights:
-          - Streamlined store operations, boosting customer experience ratings by 15% through targeted process improvements.
-          - Appointed as store representative for exceptional performance and leadership, managing interactions with 100+ customers daily.
-
+          - Appointed store representative, supporting customer service and day-to-day team operations in a high-volume retail environment.
 
     Projects:
-      - name: Age Group Detection
-        summary: "Python, PyTorch, scikit-learn | March 2026 - Apr 2026"
+      - name: Cocoa Disease Inspection Platform
+        summary: "Python, FastAPI, React + TypeScript, YOLO, PostgreSQL, Azure, Docker | Jul 2026 - Present"
         highlights:
-          - Compared three model architectures (HOG+LBP+SVM, HOG+MLP, CNN ResNet18) for classifying facial images into four age groups across a multi-thousand image dataset.
-          - ResNet18 with transfer learning achieved 72% accuracy and was selected over SVM (same accuracy) based on confusion matrix analysis showing zero Child↔Senior misclassifications.
-          - Managed full ML pipeline including feature extraction, model training, evaluation metrics, and architecture trade-off justification.
+          - Developed a cloud-native AI inspection platform using a YOLO26n (nano) object-detection model exported to ONNX Runtime for efficient real-time CPU inference.
+          - Built a FastAPI backend integrating AI inference, PostgreSQL persistence, and Azure Blob Storage to manage inspection images and prediction metadata.
+          - Developed a React progressive web app that enables field inspectors to capture images, receive real-time diagnoses, and submit human corrections to improve dataset quality.
+          - Implemented a human-in-the-loop feedback workflow with dataset-export capabilities to support future model retraining and MLOps pipelines.
+
+      - name: Fluffy Ontology Alignment
+        summary: "Python, SPARQL, SBERT, Knowledge Graphs, RDF/OWL | Jan 2026 - May 2026"
+        highlights:
+          - Designed an ontology-alignment system combining lexical (ISub) and SBERT-based semantic matching across six OAEI benchmark tracks.
+          - Built semantic-search and SPARQL pipelines to integrate structured knowledge graphs and evaluate alignment quality using precision, recall, and F-score.
+          - Exported merged ontologies and standardised reports to support interoperable data sharing.
 
       - name: Venue-and-You
-        summary: "Java, MySQL | Feb 2025 - May 2025"
+        summary: "Java, MySQL | Jan 2025 - May 2025"
         highlights:
-          - Led a team ranked top 5 out of 30+ projects at university demo day, building a full venue management and ticketing system.
-          - Developed Java Swing frontend integrated with Java + MySQL backend supporting real-time data, secure login, client management, and bookings for 100+ users.
-          - Directed team collaboration on GitHub over 7 weeks, ensuring timely delivery and version control.
-
-      - name: End of the Line 2024 - Robotics Competition
-        summary: "C++ | Oct 2024"
-        highlights:
-          - Led a team to 2nd place in a university-wide robotics competition, programming a line-following robot with C++ algorithms achieving a 17-second track time, surpassing 16 teams within a 7-week timeline.
+          - Led a team of five to develop a Java and MySQL venue-management system, ranking in the top five out of 33 projects at the university showcase through effective GitHub collaboration and project delivery.
 
     Education:
-      - institution: City, St. George's University of London
+      - institution: City, University of London
         location: London, UK
         area: Computer Science
-        studyType: BSc
+        studyType: BSc (Hons), First Class
         start_date: 2023-09-01
         end_date: 2026-05-01
-        highlights:
-          - Among the top 5 students out of 320 students in Year I"
-          - Graduated with First Class with Honours
 
       - institution: Haydon School, Pinner
         location: London, UK
-        area: A-Levels and GCSE
+        area: A-Levels and GCSEs
         studyType: Secondary Education
         start_date: 2019-01-01
         end_date: 2022-05-01
         highlights:
           - "A-Levels: Mathematics (A), Computer Science (A), Physics (B)"
-          - "GCSEs: 9 subjects at A*/A including Maths, Triple Science, English, Computer Science"
-
-
-    Skills:
-      - name: Languages
-        icon: fa-solid fa-code
-        keywords: "Python, Java, C/C++/C#, SQL, TypeScript with React"
-
-      - name: Practices
-        icon: fa-solid fa-gears
-        keywords: "Object Oriented Programming, Debugging, Unit Testing, Agile Software Development"
-
-      - name: Developer Tools
-        icon: fa-solid fa-screwdriver-wrench
-        keywords: "Git, Docker, Visual Studio Code, Vim, PyCharm, IntelliJ, Arduino"
-
-    Certificates:
-      - name: Microsoft Azure Data Fundamentals (DP-900)
-        issuer: Microsoft
-        date: 2026-05-01
-        icon: fa-solid fa-certificate
-        url: https://learn.microsoft.com/en-us/users/sujitbhatta-5323/transcript/vnnxpiyo6rene4e
- 
-      - name: IBM Z Xplore - Concepts
-        issuer: IBM
-        date: 2024-08-16
-        icon: fa-solid fa-certificate
-        url: https://www.credly.com/badges/6a841dcf-11b8-4338-97ee-d6150ba1114e/public_url 
+          - "GCSEs: 9 subjects at A*/A, including Mathematics, Triple Science, English, and Computer Science"
