@@ -6,7 +6,7 @@ nav: true
 nav_order: 6
 cv_pdf: assets/pdf/CV_page1_project_updated.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: Download the PDF version above, or browse the full CV below.
+description: Download the PDF version above, or browse the full CV below (Below might be outdated reference the pdf icon for latest batch).
 toc:
   sidebar: left
 ---

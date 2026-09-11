@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I came to the UK. Finally starting to live with my mum.
+I came to the UK. The beginning of my journey.
 
