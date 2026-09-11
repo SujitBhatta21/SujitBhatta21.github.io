@@ -365,16 +365,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-got-accepted-at-city-university-of-london",
+          title: 'Got accepted at City, University of London',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-i-came-to-the-uk-finally-starting-to-live-with-my-mum",
+          title: 'I came to the UK. Finally starting to live with my mum.',
           description: "",
           section: "News",},{id: "projects-aalc-interactive-storyline",
           title: 'AALC - Interactive Storyline',
@@ -421,6 +421,11 @@ ninja.data = [{
           description: "Python script that picks a random quote from a CSV and emails it daily using smtplib and Gmail SMTP.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-ai-powered-cocoa-disease-inspection-platform",
+          title: 'AI-Powered Cocoa Disease Inspection Platform',
+          description: "Full-stack cocoa disease detection with YOLO, ONNX Runtime, responsive bounding boxes, and human validation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CocoaProject/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
