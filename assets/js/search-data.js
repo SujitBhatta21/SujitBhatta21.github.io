@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Download the PDF version above, or browse the full CV below.",
+          description: "Download the PDF version above, or browse the full CV below (Below might be outdated reference the pdf icon for latest batch).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -365,16 +365,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-got-accepted-at-city-university-of-london",
-          title: 'Got accepted at City, University of London',
+            },},{id: "news-i-came-to-the-uk-the-beginning-of-my-journey",
+          title: 'I came to the UK. The beginning of my journey.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-got-accepted-at-city-university-of-london",
+          title: 'Got accepted at City, University of London.',
           description: "",
-          section: "News",},{id: "news-i-came-to-the-uk-finally-starting-to-live-with-my-mum",
-          title: 'I came to the UK. Finally starting to live with my mum.',
+          section: "News",},{id: "news-i-graduated-after-stressful-semester",
+          title: 'I graduated after stressful semester.',
           description: "",
           section: "News",},{id: "projects-aalc-interactive-storyline",
           title: 'AALC - Interactive Storyline',
