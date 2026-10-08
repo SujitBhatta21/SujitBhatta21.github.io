@@ -11,6 +11,8 @@ profile:
   more_info: >
     <p>Sujit Bhatta</p>
     <p>London, UK</p>
+    <p>Ethnicity: Nepalese</p>
+    <p>Nationality: British</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,6 +32,6 @@ I am a CS graduate, 2026 from City St. George's, University of London on BSc Com
 with interests in Software Engineering, Machine Learning, and Cloud technologies.
 
 I enjoy building things that sit at the intersection of structured data and real-world
-applications. Currently learning about Microsoft Data Platform using Azure and building a good portfolio for job applications.
+applications. Currently learning about Microsoft Data Platform using Azure and building my portfolio here.
 
 Feel free to reach out via [email](mailto:{{ site.data.socials.email }}) or [LinkedIn](https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}).
